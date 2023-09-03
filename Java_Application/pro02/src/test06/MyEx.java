@@ -1,0 +1,22 @@
+package test06;
+
+public class MyEx {
+    public static void main(String[] args) {
+        try(MyResource res = new MyResource("A")) {
+            String data = res.read1();
+            int value = Integer.parseInt(data);
+        } catch(Exception e) {
+            System.out.println("예외 처리: " + e.getMessage());
+        }
+
+        System.out.println();
+
+        try (MyResource res = new MyResource("A")) {
+            String data = res.read2();
+            //NumberFormatException 발생
+            int value = Integer.parseInt(data);
+        } catch(Exception e) {
+            System.out.println("예외 처리: " + e.getMessage());
+        }
+    }
+}
