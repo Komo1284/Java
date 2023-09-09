@@ -16,6 +16,7 @@ public class GenEx {
         Course.registerCourse2(new Applicant<Student>(new Student()));
         Course.registerCourse2(new Applicant<HighStudent>(new HighStudent()));
         Course.registerCourse2(new Applicant<MiddleStudent>(new MiddleStudent()));
+        System.out.println();
 
         //직장인 및 일반인만 신청 가능
         Course.registerCourse3(new Applicant<Person>(new Person()));
