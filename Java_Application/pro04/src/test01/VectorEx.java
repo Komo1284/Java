@@ -3,7 +3,6 @@ package test01;
 import java.util.List;
 import java.util.Vector;
 
-import test08.Board;
 
 public class VectorEx {
     public static void main(String[] args) {
