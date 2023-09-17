@@ -1,4 +1,4 @@
-package test01;
+package test02;
 
 public class ThreadNameEx {
     public static void main(String[] args) {
