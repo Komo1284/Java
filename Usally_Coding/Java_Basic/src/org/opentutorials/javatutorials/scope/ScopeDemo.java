@@ -3,7 +3,7 @@ package org.opentutorials.javatutorials.scope;
 public class ScopeDemo {
 	
 	static void a() {
-		int i = 0;
+		int i = 0; //지역변수
 	}
 
 	public static void main(String[] args) {
