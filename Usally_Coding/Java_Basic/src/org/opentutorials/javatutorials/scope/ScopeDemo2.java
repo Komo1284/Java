@@ -5,7 +5,7 @@ public class ScopeDemo2 {
 	static int i; //전역 변수
 	
 	static void a() {
-		i = 0;
+		i = 1;
 	}
 	
 	public static void main(String[] args) {
